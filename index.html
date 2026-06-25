@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaideep Singh| Portfolio</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#050505] text-white overflow-x-hidden">
+
+<div id="preloader">
+    
+</div>
+
+<div id="portfolio-content">
+
+    <!-- Background Glow -->
+     <div class="tech-bg" id="tech-bg"></div>
+    <div class="background-glow">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="glass navbar">
+        <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+
+            <h1 class="text-lg font-semibold tracking-wide">
+                JAIDEEP SINGH
+            </h1>
+
+            <ul class="hidden md:flex gap-8 text-sm text-zinc-300">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="min-h-[90vh] flex items-center">
+
+        <div class="max-w-6xl mx-auto px-6 w-full">
+
+            <div class="hero-content">
+
+                
+
+                <h1 class="hero-title">
+                    AI • Cloud •
+                    <br>
+                    Python Developer
+                </h1>
+
+                <p class="hero-description">
+                    Computer Science graduate passionate about
+                    Artificial Intelligence, Cloud Computing,
+                    Python Development and Cybersecurity.
+
+                    Building intelligent applications, cloud
+                    solutions and real-world software projects..
+                </p>
+                <div class="glass inline-block px-4 py-2 mb-8">
+                    <span class="text-sm text-zinc-300">
+                        ● Available for Opportunities
+                    </span>
+                </div>
+
+                <div class="flex gap-4 mt-10">
+
+                    <a href="#projects"
+                       class="glass button-primary">
+                        View Projects
+                    </a>
+
+                    <a href="#contact"
+                       class="glass button-primary">
+                        Contact
+                    </a>
+
+                    <a href="jaideep.resume.pdf"
+                       class="glass button-primary">
+                        Resume
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ABOUT -->
+
+<section id="about" class="py-20">
+
+    <div class="container-custom">
+
+        <div class="glass p-8 md:p-10">
+
+            <span class="section-label">
+                About
+            </span>
+
+            <h2 class="section-title">
+                Building Practical Skills
+                Through Continuous Learning
+            </h2>
+
+            <p class="section-text">
+                I am a Computer Science graduate with hands-on
+                experience in Python development, Machine Learning,
+                Natural Language Processing, AWS Cloud Services and
+                Data Analytics.
+
+                My focus is on building practical solutions that
+                combine software engineering, AI and cloud technologies.
+                I enjoy solving real-world problems through continuous
+                learning, experimentation and project development.
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="pb-20">
+
+    <div class="container-custom">
+
+        <div class="mb-12">
+
+            <span class="section-label">
+                Skills
+            </span>
+
+            <h2 class="section-title">
+                Technologies &
+                Tools
+            </h2>
+
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="glass skill-card">
+                <h3>Programming</h3>
+
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>JavaScript</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                </div>
+            </div>
+
+            <div class="glass skill-card">
+                <h3>AI & Data Science</h3>
+
+                <div class="skill-tags">
+                    <span>Machine Learning</span>
+                    <span>NLP</span>
+                    <span>Scikit-learn</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                    <span>EDA</span>
+                </div>
+            </div>
+
+            <div class="glass skill-card">
+                <h3>Cloud & DevOps</h3>
+
+                <div class="skill-tags">
+                    <span>AWS EC2</span>
+                    <span>AWS S3</span>
+                    <span>IAM</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                </div>
+            </div>
+
+            <div class="glass skill-card">
+                <h3>Frameworks & Tools</h3>
+
+                <div class="skill-tags">
+                    <span>Flask</span>
+                    <span>Streamlit</span>
+                    <span>LangChain</span>
+                    <span>FAISS</span>
+                    <span>Jupyter</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="pb-20">
+
+    <div class="container-custom">
+
+        <div class="mb-12">
+
+            <span class="section-label">
+                Projects
+            </span>
+
+            <h2 class="section-title">
+                Featured Work
+            </h2>
+
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+
+            <div class="glass project-card">
+
+    <div class="project-top">
+        <span class="project-number">01</span>
+    </div>
+
+    <h3>CLARIFAI AI Customer Support Chatbot</h3>
+
+    <p>
+       Built an AI-powered customer support chatbot
+        using Flask, LangChain, NLP and Retrieval
+        Augmented Generation (RAG).
+
+        Implemented semantic search and context-aware
+        responses using vector databases and modern
+        LLM workflows.
+    </p>
+
+    <div class="project-tags">
+        <span>Python</span>
+        <span>Flask</span>
+        <span>NLP</span>
+    </div>
+
+    <div class="project-links">
+        <a href="#">GitHub ↗</a>
+        
+    </div>
+
+</div>
+
+            <!-- Project 2 -->
+
+            <div class="glass project-card">
+
+    <div class="project-top">
+        <span class="project-number">01</span>
+    </div>
+
+    <h3>CyberShield AI</h3>
+
+    <p>
+       Machine Learning based phishing URL detection
+        system with Flask backend and Chrome Extension
+        integration.
+
+        Performs real-time website analysis and
+        classifies malicious URLs using feature
+        engineering and ML models.
+    </p>
+
+    <div class="project-tags">
+        <span>Python</span>
+        <span>Flask</span>
+        <span>Scikit-learn</span>
+        <span>Cybersecurity</span>
+        <span>ML</span>
+        <span>JavaScript</span>
+    </div>
+
+    <div class="project-links">
+    <a href="https://github.com/Jaideep200/CyberShield-AI" target="_blank">
+        GitHub ↗
+    </a>
+</div>
+
+</div>
+
+            <!-- Project 3 -->
+
+            <div class="glass project-card">
+
+    <div class="project-top">
+        <span class="project-number">01</span>
+    </div>
+
+    <h3>Alexa Review Sentiment Analysis</h3>
+
+    <p>
+       NLP-based sentiment analysis system that
+        classifies Amazon Alexa reviews as positive
+        or negative using machine learning.
+
+        Deployed with Streamlit for real-time
+        predictions.
+    </p>
+
+    <div class="project-tags">
+        <span>Python</span>
+        <span>NLTK</span>
+        <span>NLP-based</span>
+        <span>Scikit-learn</span>
+        
+    </div>
+
+    <div class="project-links">
+    <a href="https://github.com/Jaideep200/Alexa-sentimental-analyzer" target="_blank">
+        GitHub ↗
+    </a>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact" class="pb-20">
+
+    <div class="container-custom">
+
+        <div class="glass contact-card">
+
+            <span class="section-label">
+                Contact
+            </span>
+
+            <h2 class="section-title">
+                Let's Connect
+            </h2>
+
+            <p class="section-text">
+                Interested in collaborating,
+                discussing cloud technologies,
+                or exploring opportunities?
+            </p>
+
+            <div class="contact-links">
+
+                <a href="jaideepwork1@gmail.com">
+                    Email
+                </a>
+
+                <a href="https://github.com/Jaideep200">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/jaideep-singh-9b2828248/">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="pb-10">
+
+    <div class="container-custom">
+
+        <p class="text-center text-zinc-500">
+
+           arigato gozaimasu
+
+        </p>
+
+    </div>
+
+</footer>
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
